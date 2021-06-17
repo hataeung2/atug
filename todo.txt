@@ -1,0 +1,35 @@
+/** atug2 library
+
+□ socket communication routine
+    □ async
+    □ iocp
+    □ epoll
+
+□ comment for doxygen
+    /** doxygen comment format
+    * @brief Assemble one packet for data transaction
+    * @details one packet contains opcode, source, destination, content, length and wrapper data(STX, ETX, CRC)
+    * @param _opcode: Operation Code to identify what to do
+    * @param _src: communication node from
+    * @param _dest: communication node to
+    * @param _content: data to transaction
+    * @param _len: data byte length of _content
+    * @return Assembled data packet
+    * 
+    * @todo no so far
+    * @bug no found yet
+    * @see something to show
+    * _opcode | _src | _dest | _content | _len
+    * --------|------|-------|----------|------
+    * 
+    * @li item1
+    * @li item2
+    * @code
+    * @endcode
+    */
+
+# ideas
+    # thread pool
+    # thread's heap, stack allocation size setting?
+
+*/

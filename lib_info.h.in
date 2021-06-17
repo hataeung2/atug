@@ -1,0 +1,6 @@
+#ifndef _SOL_INFO_H_
+#define _SOL_INFO_H_
+
+#define VERSION @atug2_VERSION_MAJOR@.@atug2_VERSION_MINOR@.@atug2_VERSION_PATCH@.@atug2_VERSION_TWEAK@
+
+#endif//!_SOL_INFO_H_
